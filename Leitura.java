@@ -32,5 +32,9 @@ public class Leitura {
         salario = Double.parseDouble(teclado.nextLine());
         System.out.println("Seu codigo,salario e nome é " + codigo + " - " + salario +" - " + nome);
         teclado.close();
+
+        int x = 10;
+        int z = 2;
+        System.out.println(""+x + z);
     }
 }
